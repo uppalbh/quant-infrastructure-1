@@ -1,3 +1,10 @@
+import yfinance as yf
+import pandas as pd
+import numpy as np
+import os
+import math
+import matplotlib.pyplot as plt
+from abc import ABC, abstractmethod
 
 class InstrumentsSample:
     
