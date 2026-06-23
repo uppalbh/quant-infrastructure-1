@@ -1,3 +1,11 @@
+import yfinance as yf
+import pandas as pd
+import numpy as np
+import os
+import math
+import matplotlib.pyplot as plt
+from abc import ABC, abstractmethod
+
 def simple_return(self):
     if self.data is None:
         print("Call self.fetch_data(period, interval) first")
